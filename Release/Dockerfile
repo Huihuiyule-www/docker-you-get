@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:alpine
 LABEL maintainer="kmdgeek"
 
 RUN apk --no-cache add ffmpeg \
